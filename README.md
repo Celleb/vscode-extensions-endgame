@@ -2,9 +2,17 @@
 
 Scripts to uninstall and reinstall all your Visual Studios Code extensions
 
-Sometimes things do not always work out well in the universe. Things can go wrong with Visual Studio Code and you just don't known.
+Sometimes things do not always work out well in the universe. Things can go wrong with Visual Studio Code and you just don't know why.
 
 These scripts gives you the power to wipe out your whole VScode extensions and bring them back except the bad guys.
+
+## TL;DR
+
+Run the following scripts:
+
+- Backup your extensions' list `./backup.sh`
+- Uninstall your extensions `./uninstall.sh`
+- Reinstall your extensions `./install.sh`
 
 ## Getting Started
 
@@ -27,6 +35,12 @@ Do this only once.
 Run the `./uninstall.sh` script. It will delete as many extensions as it can.
 Some extensions are depended upon by others and will not get uninstall on first run.
 Run the script as many times as necessary to remove all the extensions.
+
+### Reinstall your extensions
+
+Your uninstall and reinstall Visual Studio Code if you need to.
+
+Run `./install.sh` to reinstall your extensions.
 
 ## One more thing
 
